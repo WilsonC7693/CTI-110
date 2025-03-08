@@ -20,15 +20,17 @@ car = input('Enter a vehicle to see it\'s mpg: ' )
 print()# Add a whitespace.
 
 # Matches the key and value to complete a sentence.
-print(f'The {car} gets {economy_dict[car]} mpg')
+print(f'The {car} gets {economy_dict[car]} mpg.')
 print()# Add a whitespace.
 
 # Prompts the user to enter their intended travel distance.
-miles_to_drive = float(input(f'How many miles will you drive the {car} ? '))
+miles_to_drive = float(input(f'How many miles will you drive the {car}? '))
 print()# Add a whitespace.
 
 # Defines gallons_needed to eauate to the total of the travel distance divided by the selected vehicles MPG
 gallons_needed = float(miles_to_drive / economy_dict[car])
 print(f'{gallons_needed :.2} gallon(s) are needed to drive the {car} {miles_to_drive} miles.')
+
+
 
 
